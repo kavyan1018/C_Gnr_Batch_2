@@ -1,0 +1,50 @@
+Structure of the C program
+
+// Documentation Section 
+
+// Cooments :- Whaterver we write in the comments, it will not be executed by the compiler
+/*
+            Name    :- Kavyan Nayak
+            Date    :- 19/12/2024
+            Description / objective :- To understand the structure of the C program
+        Multiline comments
+*/
+
+// Single line comments
+
+
+
+// Link Section :- to call the functions of the library
+#include <stdio.h>      
+// # -> Preprocessor directive
+// include -> keyword
+// <stdio.h> -> header file
+
+
+// Definition Section :- to define the symbolic constants
+#define PI 3.14
+
+void main()    // main() function
+{
+
+    clrscr();  // to clear the screen
+
+    // Declaration Section :- to declare the variables
+    int a = 10;
+    float b = 3.14;
+    char c = 'A';
+
+    // Executable Section :- to write the logic
+    prinntf -> to print the output on the screen
+    
+    printf("Hello World\n");
+    printf("Value of a is %d\n", a);
+    printf("Value of b is %f\n", b);
+    printf("Value of c is %c\n", c);
+
+
+    getch();  // to hold the output screen
+}
+
+// End of the program
+

@@ -1,0 +1,107 @@
+--> 1. Introduction of C
+
+in 1972 C was developed by Dennis Ritchie 
+
+at the Bell Telephone Laboratories for use with the Unix operating system.
+
+2. C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system.
+
+
+1. High level language -> C, C++, JAVA, Python 
+2. Low level language -> Assembly language, Machine language(binary code)
+
+
+computer -> hardware + software
+
+hardware -> physical components of computer
+software -> set of instructions that tells the computer what to do
+
+how to convert the high level language to low level language?
+compiler -> converts the high level language to low level language
+Example: C -> compiler -> Assembly language -> compiler -> Machine language
+-> it will convert the whole code at once
+
+
+interpreter -> converts the high level language to low level language line by line
+Example: C -> interpreter -> Assembly language -> interpreter -> Machine language
+-> it will convert the code line by line
+
+
+
+what ia the Assembly language?
+-> Assembly language is a low-level programming language that is used to write programs that are executed by the computer's CPU.
+
+
+what is the Machine language?
+-> Machine language is the lowest-level programming language, except for computers that utilize programmable microcode and are only understood by computers.
+
+ASCII VALUES -> American Standard Code for Information Interchange
+
+A -> 65
+B -> 66
+
+a -> 97
+
+
+how to convert the decimal value to Binary value?
+in image d to b 
+
+Rules for Decimal to Binary Conversion :
+1. Divide the number by 2.
+2. Get the integer quotient for the next iteration.
+3. Get the remainder for the binary digit.
+4. Repeat the steps until the quotient is equal to 0.
+
+Example: Decimal to Binary Conversion
+
+234
+234/2 -> 117 -> 0
+117/2 -> 58 -> 1
+58/2 -> 29 -> 0
+29/2 -> 14 -> 1
+14/2 -> 7 -> 0
+7/2 -> 3 -> 1
+3/2 -> 1 -> 1
+1/2 -> 0 -> 1
+
+
+123
+432
+567
+789
+895
+785
+237
+1286
+9823
+7854
+1234
+
+
+
+
+what is data type?
+-> A data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data.
+
+
+threre is total 2 types of data types
+1. Primitive data types -> in built data types
+-> int :- 2 bytes -> 123456  =>  limit +32767 and -32768
+-> float :- 4 bytes -> 123.456 -> 6 decimal places
+-> char :- 1 byte -> 'A' -> 1 character 
+-> double :- 8 bytes -> 123.456 -> 15 decimal places
+-> long :- 4 bytes -> 123456 ->  limit +2147483647 and -2147483648
+
+2. Non Primitive data types
+-> Derived data types :- array, function, pointer
+-> user defined data types :- structure, union, 
+
+
+-> int   :- int a = 10; u can store the integer value
+-> float :- float b = 10.5; u can store the decimal value
+-> char  :- char c = 'A'; u can store the character value
+-> double:- double d = 10.5; u can store the decimal value
+-> long  :- long e = 123456; u can store the integer value
+
+
+
