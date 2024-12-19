@@ -36,7 +36,7 @@ void main()    // main() function
 
     // Executable Section :- to write the logic
     prinntf -> to print the output on the screen
-    
+
     printf("Hello World\n");
     printf("Value of a is %d\n", a);
     printf("Value of b is %f\n", b);
@@ -47,4 +47,5 @@ void main()    // main() function
 }
 
 // End of the program
+
 
