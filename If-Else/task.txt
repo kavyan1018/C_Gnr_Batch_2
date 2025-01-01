@@ -1,0 +1,10 @@
+7. Take input from user in numbers and print weekdays.(1- monday , 2- tuesday ..... 7- sunday)
+8. write a program to no is divisible by 3 and 11 or not ?
+9. Take input from user in numbers in month and print no of days that month. (1 - 31 days , 2....)
+10. Write  a program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and Computer, calculate percentage and grade according to given conditions:
+	If percentage >= 90% : Grade A
+	If percentage >= 80% : Grade B
+	If percentage >= 70% : Grade C
+	If percentage >= 60% : Grade D
+	If percentage >= 40% : Grade E
+	If percentage < 40% : Grade F
