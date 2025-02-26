@@ -1,38 +1,36 @@
-// shorting array
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h> // Standard input-output library
 
 void main()
 {
-    int a[5],i,j,temp;
+    int a[5], i, j, temp; // Declaring an array of size 5 and loop variables
 
     printf("Enter 5 numbers\n");
 
-    for (i = 1; i <= 5; i++)
-    {
-        scanf("%d",&a[i]);
+    // Loop to take input for the array
+    for (i = 0; i < 5; i++)
+    {                       // Array index starts from 0
+        scanf("%d", &a[i]); // Taking input from user
     }
-    /*
-            a = b  
-            b = c
-            c = a
-    */
-    for (i = 1; i <= 5; i++)
-    {
-        for (j = i+1; j <= 5; j++)
-        {
+
+    // Sorting the array using the Bubble Sort algorithm
+    for (i = 0; i < 5; i++)
+    { // Outer loop for passes
+        for (j = i + 1; j < 5; j++)
+        { // Inner loop to compare elements
             if (a[i] > a[j])
-            {
-                temp = a[i];
-                a[i] = a[j];
-                a[j] = temp;
-            }   
+            {                // If the current element is greater than the next one, swap
+                temp = a[i]; // Store the value of a[i] in temp
+                a[i] = a[j]; // Assign value of a[j] to a[i]
+                a[j] = temp; // Assign temp (original a[i]) to a[j]
+            }
         }
     }
-    
-    printf("Assorted numbers are\n");
-    for (i = 1; i <= 5; i++)
+
+    printf("Sorted numbers are\n");
+
+    // Loop to print the sorted array
+    for (i = 0; i < 5; i++)
     {
-        printf("%d\n",a[i]);
+        printf("%d\n", a[i]); // Displaying sorted numbers
     }
 }
