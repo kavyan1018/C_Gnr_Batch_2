@@ -1,0 +1,24 @@
+// An array in C is a fixed-size collection of similar data items stored in contiguous memory locations. It can be used to store the collection of primitive data types such as int, char, float, etc., and also derived and user-defined data types such as pointers, structures, etc.....
+
+
+
+
+
+                                        Array in C
+
+                                Array Elements
+                            ---------------------
+                           |   |   |   |    |   |
+                    array  2   4   8   12  16   18
+                    -------------------------------------
+                           0   1   2    3   4   5   --> Index
+
+
+
+                                    Array Declaration
+
+                                    a[5]; // integer array    --> size of array is 5
+                                             |
+                                        ---------------
+                                a  |     |     |     |     |
+                                   0     1     2     3     4
