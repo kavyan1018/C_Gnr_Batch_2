@@ -55,5 +55,17 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "files.associations": {
+    "STUDENT.C": "cpp",
+    "MAIN.C": "cpp",
+    "adib.C": "cpp",
+    "AMANST_1.C": "cpp",
+    "STUDENT_.C": "cpp",
+    "Aryagohilavg.C": "cpp",
+    "Harshi.C": "cpp",
+    "Jeet.C": "cpp",
+    "Jinal.C": "cpp",
+    "Shashvi.C": "cpp"
+  }
 }
