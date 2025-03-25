@@ -26,7 +26,7 @@ int main() {
         printf("1. Add Student\n");
         printf("2. Display All Students\n");
         printf("3. Update Student by Roll Number\n");
-        printf("4. List of Student Display by Roll Number\n");
+        printf("4. Display Student by Roll No\n");
         printf("4. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
