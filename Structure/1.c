@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<conio.h>
+#include <stdio.h>
+#include <conio.h>
 
 // Structure to store student information
 struct stu
@@ -9,24 +9,38 @@ struct stu
     float marks;
 };
 
-
 void main()
 {
-    struct stu s;
 
+    int n, i;
 
-    printf("Enter roll number: ");
-    scanf("%d",& s.roll_no);
+    printf("Enter number of students: ");
+    scanf("%d", &n);
 
-    printf("Enter name: ");
-    scanf("%s",s.name);
+    struct stu s[n];
 
-    printf("Enter marks: ");
-    scanf("%f",& s.marks);
+    printf("\n--------Enter Student Information %d :----------\n", n);
+    // Loop to enter student information
+    for (i = 0; i < n; i++)
+    {
 
+        printf("Enter roll number: ");
+        scanf("%d", &s[i].roll_no);
 
-    printf("\nRoll number: %d",s.roll_no);
-    printf("\nName: %s",s.name);
-    printf("\nMarks: %.2f",s.marks);
+        printf("Enter name: ");
+        scanf("%s", s[i].name);
 
+        printf("Enter marks: ");
+        scanf("%f", &s[i].marks);
+    }
+
+    // Loop to display student information
+    printf("\n--------Student Information:----------\n");
+    for (i = 0; i < n; i++)
+    {
+
+        printf("\nRoll number: %d", s[i].roll_no);
+        printf("\nName: %s", s[i].name);
+        printf("\nMarks: %.2f \n", s[i].marks);
+    }
 }
