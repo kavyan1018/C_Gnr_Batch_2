@@ -1,0 +1,17 @@
+     what is switch case in c ?
+-->  switch case is use to execute a block of code among multiple options. 
+
+
+syntax of switch case in c 
+
+int a, b, choice;
+
+    switch (expression)
+    {
+    case constant expression:
+        /* code */
+        break;
+    
+    default:
+        break;
+    }
