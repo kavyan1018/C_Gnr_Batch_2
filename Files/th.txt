@@ -1,0 +1,9 @@
+2 types --> .txt , .bin
+
+Oprations in file :
+
+// 1. open file
+// 2. read file
+// 3. write file
+// 4. close file
+// 5. delete file
