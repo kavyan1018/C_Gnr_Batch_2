@@ -1,0 +1,19 @@
+what is string in c ?
+--> collection of characters
+
+
+--> %s data type   
+
+--> for normal char we use %c
+
+
+methods : 
+
+    -> strcpy() : copy string
+    -> strcat() : concatenate string
+    -> strlen() : length of string
+    -> strcmp() : compare two strings
+
+
+gets() : read string with spaces
+puts() : print string with new line
